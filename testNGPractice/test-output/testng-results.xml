@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[hi]]>
+    </line>
+    <line>
+      <![CDATA[hi]]>
+    </line>
+    <line>
+      <![CDATA[hi]]>
+    </line>
+    <line>
+      <![CDATA[hi]]>
+    </line>
+    <line>
+      <![CDATA[hi]]>
+    </line>
+    <line>
+      <![CDATA[hi]]>
+    </line>
+    <line>
+      <![CDATA[hi]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+    <groups>
+      <group name="1stTest">
+        <method signature="testNGTestClass.test1(java.lang.String)[pri:0, instance:testNGPractice.testNGTestClass@51081592]" name="test1" class="testNGPractice.testNGTestClass"/>
+        <method signature="testNGTestClass2.test1()[pri:0, instance:testNGPractice.testNGTestClass2@396a51ab]" name="test1" class="testNGPractice.testNGTestClass2"/>
+      </group> <!-- 1stTest -->
+    </groups>
+    <test name="Test" duration-ms="80" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+      <class name="testNGPractice.testNGTestClass">
+        <test-method status="PASS" signature="beforeSuite1()[pri:0, instance:testNGPractice.testNGTestClass@51081592]" name="beforeSuite1" is-config="true" duration-ms="33" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite1 -->
+        <test-method status="PASS" signature="beforeSuite2()[pri:0, instance:testNGPractice.testNGTestClass2@396a51ab]" name="beforeSuite2" is-config="true" duration-ms="0" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite2 -->
+        <test-method status="PASS" signature="beforeTest1()[pri:0, instance:testNGPractice.testNGTestClass@51081592]" name="beforeTest1" is-config="true" duration-ms="1" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest1 -->
+        <test-method status="PASS" signature="beforeTest2()[pri:0, instance:testNGPractice.testNGTestClass2@396a51ab]" name="beforeTest2" is-config="true" duration-ms="1" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest2 -->
+        <test-method status="PASS" signature="beforeMethod1()[pri:0, instance:testNGPractice.testNGTestClass@51081592]" name="beforeMethod1" is-config="true" duration-ms="1" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1 -->
+        <test-method status="PASS" signature="test1(java.lang.String)[pri:0, instance:testNGPractice.testNGTestClass@51081592]" name="test1" duration-ms="2" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[optional param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[hi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod1()[pri:0, instance:testNGPractice.testNGTestClass@51081592]" name="afterMethod1" is-config="true" duration-ms="1" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testNGPractice.testNGTestClass@51081592]" name="test2" duration-ms="4" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="beforeMethod1()[pri:0, instance:testNGPractice.testNGTestClass@51081592]" name="beforeMethod1" is-config="true" duration-ms="0" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1 -->
+        <test-method status="PASS" signature="afterMethod1()[pri:0, instance:testNGPractice.testNGTestClass@51081592]" name="afterMethod1" is-config="true" duration-ms="3" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method status="PASS" signature="afterTest1()[pri:0, instance:testNGPractice.testNGTestClass@51081592]" name="afterTest1" is-config="true" duration-ms="1" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest1 -->
+        <test-method status="PASS" signature="afterTest2()[pri:0, instance:testNGPractice.testNGTestClass2@396a51ab]" name="afterTest2" is-config="true" duration-ms="0" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest2 -->
+        <test-method status="PASS" signature="afterSuite2()[pri:0, instance:testNGPractice.testNGTestClass2@396a51ab]" name="afterSuite2" is-config="true" duration-ms="0" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite2 -->
+        <test-method status="PASS" signature="afterSuite1()[pri:0, instance:testNGPractice.testNGTestClass@51081592]" name="afterSuite1" is-config="true" duration-ms="0" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite1 -->
+      </class> <!-- testNGPractice.testNGTestClass -->
+      <class name="testNGPractice.testNGTestClass2">
+        <test-method status="PASS" signature="beforeMethod2()[pri:0, instance:testNGPractice.testNGTestClass2@396a51ab]" name="beforeMethod2" is-config="true" duration-ms="1" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod2 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testNGPractice.testNGTestClass2@396a51ab]" name="test1" duration-ms="8" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod2()[pri:0, instance:testNGPractice.testNGTestClass2@396a51ab]" name="afterMethod2" is-config="true" duration-ms="5" started-at="2019-07-08T09:27:33Z" finished-at="2019-07-08T09:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod2 -->
+      </class> <!-- testNGPractice.testNGTestClass2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

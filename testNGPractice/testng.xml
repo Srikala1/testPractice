@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- <parameter name ="x" value="param Value"></parameter>-->
+  <test thread-count="5" name="Test">
+ <!-- > <groups>
+  <run>
+  <include name="1stTest"/>
+  <exclude name="1stTest"/></run></groups>-->
+    <classes>
+      <class name="testNGPractice.testNGTestClass2">
+      <methods>
+      <include name ="test1"/></methods>
+      </class>
+      <class name="testNGPractice.testNGTestClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

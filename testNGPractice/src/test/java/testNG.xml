@@ -1,0 +1,14 @@
+<Suite>
+<test>
+<groups>
+<run>
+<!-- <include name ='1stTest'/>-->
+<exclude name='1stTest'></exclude></run></groups>
+<!-- packages>
+<package name='testNGPractice'></packages>-->
+ <classes>
+<class name='testNGTestClass'/>
+<class name='testNGTestClass2'/>
+</classes>
+</test>
+</Suite>
